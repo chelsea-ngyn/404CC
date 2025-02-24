@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    
+    <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- navbar start -->
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -29,21 +29,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="product.html">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="product.html">Books</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -53,35 +39,182 @@
         </div>
       </div>
     </nav> <!-- navbar end -->
+  </header>
+  
+  <main>
 
-      <div class="container text-center">
-        <div class="row g-2"> <!-- Section 1 start -->
-          <div class="col">
-            <div class="p-3">Custom column padding</div>
-          </div>
-          <div class="col">
-            <div class="p-3">Custom column padding</div>
-          </div>
-        </div> <!-- Section 1 end -->
-        <div class="row g-2"> <!-- Section 2 start -->
-          <div class="col-6">
-            <div class="p-3">Custom column padding</div>
-          </div>
-          <div class="col-6">
-            <div class="p-3">Custom column padding</div>
-          </div>
-        </div> <!-- Section 2 end -->
-        <div class="row g-2"> <!-- Section 3 start -->
-          <div class="col-6">
-            <div class="p-3">Custom column padding</div>
-          </div>
-          <div class="col-6">
-            <div class="p-3">Custom column padding</div>
-          </div>
-        </div> <!-- Section 3 end -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"> <!-- header start -->
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 fw-bold">New book</h1>
+        <h3 class="fw-normal text-muted mb-3">Description</h3>
+        <div class="d-flex gap-3 justify-content-center lead fw-normal">
+          <a class="icon-link" href="#">
+            Learn more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+          <a class="icon-link" href="#">
+            Buy
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
       </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div> <!-- header end -->
 
-    </div>
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-md-5 g-4"> <!-- Section 1: cards -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end section 1 -->
+  
+
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> <!-- section 2 start -->
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div> <!-- section 2 end -->
+
+    <div class="px-4 py-5 my-5 text-center"> <!-- section 3 start -->
+      <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">testimonial</p>      
+      </div>
+    </div> <!-- section 3 end -->
+
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    </div> <!-- close container-->
+
+    
+
+  </main>
 
 <!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
