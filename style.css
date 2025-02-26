@@ -1,10 +1,10 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 .home-hero {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/sunriseonthereaping.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/sotrheading2.jpg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 80%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: top;
@@ -15,7 +15,7 @@
 
 .book-hero {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/thgbookcover.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/thgheader1.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -26,3 +26,8 @@
   background-size: cover;
   position: relative;
 }
+
+body {
+  background-color: #121212;
+}
+
